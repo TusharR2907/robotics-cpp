@@ -1,0 +1,24 @@
+file handling means playing with data like store data read data edit
+data when we working with any file it open on RAM and when we save it save into ROM
+File handling means reading from and writing to files (like .txt, .csv, etc.) using classes provided by the C++ standard library.
+Programs run in RAM, meaning data exists only while the program is running, when a program ends, all data in RAM is lost automatically.
+File handling allows storing data in secondary memory (like HDD or SSD), so it can be preserved permanently and can be saved and accessed even after the program terminates.
+For file operations, C++ provides file stream classes in the <fstream> header such as ofstream, ifstream, fstream.
+
+snytax 
+fstream str("filename.ext", mode);
+where,
+str: Name given to the stream
+filename: Name of the file
+mode: Represents the way in which we are going to interact with the file.
+but it syntax we don't use 
+for write we use:
+ofstream fileout("file.txt");
+for read we use:
+ifstream filein("file.txt");
+but it read only 1st letter after space btw letter it will break so for reading line by line we use getline(file, s);
+
+
+Closing the File
+Closing the file means closing the associated stream and free the resources that we being used. 
+It is important to close the file after you are done with it, especially in the long running programs to avoid memory leaks, data loss, etc.

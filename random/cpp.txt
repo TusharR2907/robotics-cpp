@@ -1,0 +1,28 @@
+cpp is Low-level control (memory management, hardware access) High-level features (classes, objects, templates, libraries)
+basic structure of cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello, World!";
+    return 0;
+}
+In this #include <isotream> import input/output library
+In this namespace std help to make short print function like we usually write std::cout instead this we can write only cout
+and cout is print function like print in python 
+return 0 means it show your code run completly or not
+
+variables
+1. int 
+2. string
+3. bool 
+4. floot
+5. double
+6. char
+
+Operators
++ , - , / , * , %(remainder)
+Comparison
+==  !=  >  <  >=  <=
+

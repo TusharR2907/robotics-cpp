@@ -1,0 +1,23 @@
+Exception Handling in C++ is a mechanism used to handle runtime errors and abnormal conditions, 
+allowing a program to continue execution smoothly even when unexpected situations occur.
+Handles abnormal conditions like Division by zero, Invalid memory access, File handling failures, and 
+Out-of-range errors that occur during program execution.
+
+
+try-catch Block
+in C++ has inbuild try catch feature. In try catch code block has a function if any error put in it will mention and move futher.
+Syntax:
+try {
+    // Code that may throw exception
+}
+catch (ExceptionType e) {
+    // Exception handling code
+}
+
+throw = return the value to catch 
+
+Type of Throwing Exception in C++:
+There are mainly three types of exceptions in C++:
+1.Built-in Types in this error comes we decide whats output should look like
+2.Standard Exceptions in this c++ library show error
+3.Custom Exceptions
